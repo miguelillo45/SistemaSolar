@@ -1,0 +1,85 @@
+
+
+
+
+
+body{
+    height: 600px;
+    background-image:url("https://www.eltiempo.com/files/article_main/uploads/2020/12/09/5fd1466c9bad3.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: 110%; ;
+    background-position-x:center ;
+    background-position-y:center ;
+    background-attachment:fixed ;  /* scrool texto se movera contigo  y fixed para la imagen estatica*/
+}
+
+
+ul{
+    list-style-type:  none ;/*quito viñetas*/
+    margin: 0%;   /*margen interno*/
+    padding: 0%;    /*margen externo*/
+    width: 200px;
+    background-color: antiquewhite;
+    border: 2px black; /*PARA PONER BORDE*/
+}
+
+
+/* barra de navegacion vertical*/
+
+li a{
+    display: block;
+    color:yellow;
+    background-color:black;
+    padding: 8px 0 8px 16px;
+}
+
+/*cambia el color al pasar el mouse*/
+
+li a:hover{
+    background-color: yellow;
+    color:black;
+
+}
+header{
+    background-color: yellow;
+    text-align: center;
+    color: yellow;
+    text-decoration:underline;
+    background-position: center center;
+	background-image: url(https://img.freepik.com/vector-gratis/banner-negro-formas-geometricas-amarillas_1017-32327.jpg?w=2000);
+	background-size:cover;
+}
+
+
+
+h4{
+    color: rgb(241, 238, 8);
+    text-decoration:underline ; /* text decoration para poner subtitulos o tachar palabras*/   
+    text-transform: initial; /* text transform para hacerlo minuscula o mayuscula o una letra gigante */  
+    letter-spacing: 3px;    /*sirve para separar las letras*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;    /*cursiva*/
+    font-weight: bold;    /*negrita*/
+    text-shadow: 1px 1px 1px black;  /*sombras: sombra  horizontal , sombra vertical, desenfoque y color asi respectivamente en el mismo orden*/
+}       
+
+
+
+
+
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    color: yellow;
+    text-decoration:underline;
+    background-position: center center;
+	background-image: url(https://img.freepik.com/vector-gratis/banner-negro-formas-geometricas-amarillas_1017-32327.jpg?w=2000);
+	background-size: cover;
+}
+
+
+footer svg{
+    width: 2%;
+    
+}
